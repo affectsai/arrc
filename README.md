@@ -1,9 +1,5 @@
-~~~~# arrc
+# Affective Research on Representations and Classifications (ARRC)
 
-[![PyPI - Version](https://img.shields.io/pypi/v/arrc.svg)](https://pypi.org/project/arrc)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/arrc.svg)](https://pypi.org/project/arrc)
-
------
 
 ## Table of Contents
 
