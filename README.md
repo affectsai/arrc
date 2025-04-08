@@ -46,24 +46,24 @@ __Under the followiung terms__:
 
 ```python
 import keras
-from arrc . models import ARRCModel
+from arrc.models import ARRCModel
 
 ecg_duration_sec = 30 # Seconds
 ecg_sample_rate = 256 # Hertz
 
 # Single - channel ECG Input
-inputs = keras . Input ( shape =( ecg_duration_sec * ecg_sample_rate , 1) )
-features = keras . layers . Conv1D ( filters =64 , kernel_size =7 , padding = "same" ) (inputs )
-features = keras . layers . MaxPooling1D () ( features )
-features = keras . layers . Conv1D ( filters =128 , kernel_size =3 , padding = "same", activation = 'relu') ( features )
-features = keras . layers . GlobalMaxPooling1D () ( features )
+inputs = keras.Input(shape=(ecg_duration_sec * ecg_sample_rate, 1))
+features = keras.layers.Conv1D ( filters =64, kernel_size =7, padding = "same" )(inputs)
+features = keras.layers.MaxPooling1D()(features)
+features = keras.layers.Conv1D(filters =128, kernel_size =3, padding = "same", activation = 'relu')(features)
+features = keras.layers.GlobalMaxPooling1D()(features)
 
-model = ARRCModel . BuildARRCModel (
-    inputs = inputs ,
-    embedding_outputs = features ,
-    num_classes =4 ,
+model = ARRCModel.BuildARRCModel(
+    inputs = inputs, 
+    embedding_outputs = features, 
+    num_classes = 4, 
 )
-model . summary ()
+model.summary ()
 ```
 
 
