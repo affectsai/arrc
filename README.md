@@ -16,6 +16,9 @@ Quick Index of this README:
 - Want to know how to use it? Jump to [Quick Start](#quickstart)
 - Want to help out? Jump to [Contributing](#contributing)
 
+[![DOI](https://zenodo.org/badge/952034297.svg)](https://doi.org/10.5281/zenodo.15148152)
+
+
 ## Quick Start
 __Step 1: Installation__
 
