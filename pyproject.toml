@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "Affective Research on Representations and Classifications (ARRC)"
+name = "arrc"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
