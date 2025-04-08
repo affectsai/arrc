@@ -20,7 +20,7 @@ authors:
     website: 'https://affects.ai'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.15148153
+    value: 10.5281/zenodo.15178393
 repository-code: 'https://github.com/affectsai/arrc/'
 license: CC-BY-NC-4.0
 commit: 6db8306
