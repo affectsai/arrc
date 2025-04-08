@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "arrc"
+name = "Affective Research on Representations and Classifications (ARRC)"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
@@ -32,7 +32,7 @@ dependencies = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/Tim Sweeney-Fanelli/arrc#readme"
+Documentation = "https://affects.ai/arrc"
 Issues = "https://github.com/Tim Sweeney-Fanelli/arrc/issues"
 Source = "https://github.com/Tim Sweeney-Fanelli/arrc"
 

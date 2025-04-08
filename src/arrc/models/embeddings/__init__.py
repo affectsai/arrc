@@ -22,9 +22,3 @@ from .baseline import build_baseline_model
 from .resnet import build_resnet_cnn_model
 # Under Test:
 
-# Pending Test
-from arrc.models.embeddings.resnet import build_resnet_cnn_model
-from arrc.models.embeddings.experimental.encoder import build_encoder_model
-from arrc.models.embeddings.experimental.wavenet import build_wavenet_with_attention_model
-from arrc.models.embeddings.experimental.dl_cnn_classification import build_dl_cnn_model
-from arrc.models.embeddings.experimental.gated_resnet import build_gated_resnet
